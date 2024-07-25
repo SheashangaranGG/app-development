@@ -1,0 +1,35 @@
+.login_background
+{
+    height:100svh;
+    width:100%;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.login_main
+{
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 5%;
+    margin:auto;
+    align-items: left;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color:azure;
+}
+.signUp_main
+{
+    border: 2px solid rgb(248, 247, 247);
+    border-radius: 5%;
+    margin:auto;
+    align-items: left;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color:azure;
+}
