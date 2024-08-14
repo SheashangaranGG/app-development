@@ -1,0 +1,79 @@
+.manage-users {
+    padding: 20px;
+    max-width: 1200px; /* Limit max-width for large screens */
+    margin: 0 auto; /* Center align */
+    /* background: linear-gradient(135deg, #FFFFFF 0%, #E0F7FA 50%, #B2EBF2 100%); */
+  }
+  
+  .manage-users table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure columns adapt to content */
+    /* background: linear-gradient(135deg, #FFFFFF 0%, #E0F7FA 50%, #B2EBF2 100%); */
+  }
+  
+  .manage-users th, .manage-users td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    word-wrap: break-word; /* Ensure text wraps within cells */
+  }
+  
+  .manage-users th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .manage-users button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners for better look */
+    transition: background-color 0.3s ease;
+  }
+  
+  .manage-users button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .manage-users {
+      padding: 15px;
+    }
+  
+    .manage-users table {
+      font-size: 14px; /* Slightly smaller text for smaller screens */
+    }
+  
+    .manage-users th, .manage-users td {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .manage-users button {
+      padding: 6px 10px; /* Adjust button padding */
+      font-size: 14px; /* Smaller font size for buttons */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .manage-users {
+      padding: 10px;
+    }
+  
+    .manage-users table {
+      font-size: 12px; /* Further decrease text size */
+    }
+  
+    .manage-users th, .manage-users td {
+      padding: 8px; /* Further adjust padding */
+    }
+  
+    .manage-users button {
+      padding: 5px 8px; /* Smaller button padding */
+      font-size: 12px; /* Smaller font size for buttons */
+    }
+  }
+  
