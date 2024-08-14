@@ -1,0 +1,31 @@
+.navbar2{
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+/* .navbar2:hover {
+   
+} */
+
+.hover-coursenav {
+    --s: 0.1em;
+    --c: #1095c1;
+    cursor: pointer;
+    color: #0000;
+    font-family: "Source Sans 3", sans-serif;
+    background:
+      linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: background-size 0.5s;
+}
+
+.hover-coursenav:hover {
+    --_p: 100%;
+    background-size: 200% 100%, 100% var(--s);
+}

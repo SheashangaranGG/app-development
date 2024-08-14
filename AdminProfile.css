@@ -1,0 +1,160 @@
+.AProfile {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.Aprofile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.Aprofile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  user-select: none;
+  flex-wrap: wrap;
+}
+
+.Aprofile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  border: 4px solid #4A90E2; /* Adds a border to the avatar */
+  background-color: #4A90E2; /* Background color for the avatar */
+  color: #fff; /* Text color for the avatar */
+}
+
+.Aprofile-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.Aprofile-info h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.Aprofile-info p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.Aprofile-details, .Aprofile-activity {
+  margin-top: 20px;
+}
+
+.Aprofile-details h2, .Aprofile-activity h2 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  color: #4A90E2; /* Heading color */
+}
+
+.Aprofile-details p, .Aprofile-activity p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.Acourse-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.Acourse-item {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 240px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Acourse-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.Acourse-img-container {
+  flex-shrink: 0;
+}
+
+.Acourse-img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.Acourse-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4A90E2;
+}
+
+.Acourse-description {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .Aprofile-container {
+    padding: 15px;
+    margin-top: 50px;
+  }
+
+  .Aprofile-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Aprofile-avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .Aprofile-info h1 {
+    font-size: 1.75rem;
+  }
+
+  .Aprofile-details h2, .Aprofile-activity h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Aprofile-container {
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .Aprofile-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Aprofile-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .Aprofile-details h2, .Aprofile-activity h2 {
+    font-size: 1.25rem;
+  }
+}
